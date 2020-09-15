@@ -1,5 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import classNames from "classnames"
+
 import StyledButton from "./Button.styles"
 
 /**
@@ -10,7 +12,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
 	return (
 		<StyledButton
 			type="button"
-			className={["quuack-button", `quuack-button--${size}`, mode].join(" ")}
+			className={classNames(mode, "quuack-button", `quuack-button--${size}`)}
 			style={backgroundColor && { backgroundColor }}
 			{...props}
 		>
