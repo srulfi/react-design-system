@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Button } from "./Button"
+import Button from "./Button"
 
 export default {
 	title: "Design System/Button",
@@ -15,31 +15,31 @@ const Template = args => <Button {...args} />
 export const Primary = Template.bind({})
 Primary.args = {
 	primary: true,
-	label: "Button",
+	children: "Button",
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-	label: "Button",
+	children: "Button",
 }
 
 export const Large = Template.bind({})
 Large.args = {
 	primary: true,
 	size: "large",
-	label: "Button",
+	children: "Button",
 }
 
 export const Medium = Template.bind({})
 Medium.args = {
 	primary: true,
 	size: "medium",
-	label: "Button",
+	children: "Button",
 }
 
 export const Small = Template.bind({})
 Small.args = {
 	primary: true,
 	size: "small",
-	label: "Button",
+	children: "Button",
 }
