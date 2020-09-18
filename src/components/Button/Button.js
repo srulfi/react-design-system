@@ -7,7 +7,7 @@ import StyledButton from "./Button.styles"
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+const Button = ({ primary, backgroundColor, size, children, ...props }) => {
 	const mode = primary ? "quuack-button--primary" : "quuack-button--secondary"
 	return (
 		<StyledButton
@@ -16,7 +16,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
 			style={backgroundColor && { backgroundColor }}
 			{...props}
 		>
-			{label}
+			{children}
 		</StyledButton>
 	)
 }
@@ -37,16 +37,17 @@ Button.propTypes = {
 	/**
 	 * Button contents
 	 */
-	label: PropTypes.string.isRequired,
+	children: PropTypes.node.isRequired,
 	/**
 	 * Optional click handler
 	 */
-	onClick: PropTypes.func,
+	onClick: PropTypes.func.isRequired,
 }
 
 Button.defaultProps = {
 	backgroundColor: null,
 	primary: false,
 	size: "medium",
-	onClick: undefined,
 }
+
+export default Button

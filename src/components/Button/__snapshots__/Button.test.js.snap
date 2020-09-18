@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Button Component renders correctly 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx kIdzGy quuack-button--secondary quuack-button quuack-button--medium"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Test Button
+  </span>
+</button>
+`;
