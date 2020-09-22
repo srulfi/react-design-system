@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
+    "lint": "eslint --ignore-path .eslintignore . --ext js --ext jsx",
     "lint:fix": "yarn lint --fix",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
