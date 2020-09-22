@@ -2,7 +2,7 @@ import React from "react"
 import { ThemeProvider } from "styled-components"
 
 import quuackTheme from "./quuackTheme"
-import { GlobalStyle } from "../src/shared/global"
+import GlobalStyle from "../src/shared/global"
 
 export const decorators = [
 	Story => (
