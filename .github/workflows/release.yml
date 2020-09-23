@@ -1,9 +1,7 @@
 name: Release
-
 on:
   push:
     branches: [master]
-
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -30,5 +28,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           yarn install --frozen-lockfile
-          yarn build
           yarn release
