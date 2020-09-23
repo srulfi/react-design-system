@@ -23,10 +23,10 @@ Secondary.args = {
 	children: "Button",
 }
 
-export const Large = Template.bind({})
-Large.args = {
+export const Small = Template.bind({})
+Small.args = {
 	primary: true,
-	size: "large",
+	size: "small",
 	children: "Button",
 }
 
@@ -37,9 +37,9 @@ Medium.args = {
 	children: "Button",
 }
 
-export const Small = Template.bind({})
-Small.args = {
+export const Large = Template.bind({})
+Large.args = {
 	primary: true,
-	size: "small",
+	size: "large",
 	children: "Button",
 }
