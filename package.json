@@ -30,7 +30,8 @@
     "lint:fix": "yarn lint --fix",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token fja0l1xk02g"
+		"chromatic": "npx chromatic --project-token fja0l1xk02g",
+		"release": "auto shipit"
   },
   "eslintConfig": {
     "extends": "react-app"
