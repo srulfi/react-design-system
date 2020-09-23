@@ -1,14 +1,17 @@
-name: "Build"
-on: push
+name: Build
+on:
+  push:
+    branches: [develop]
 jobs:
-  test:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - run: yarn
-      - run: yarn test --passWithNoTests
-      - run: yarn build
-      - uses: chromaui/action@v1
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn
+      - name: Build dist
+        run: yarn build
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.5.1
         with:
-          projectToken: fja0l1xk02g
-          token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: build dist
