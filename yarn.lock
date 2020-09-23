@@ -96,6 +96,15 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
+"@auto-it/git-tag@^9.53.1":
+  version "9.53.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/git-tag/-/git-tag-9.53.1.tgz#5066260d18bb2efa0249d5e9597a552dfd8a741c"
+  integrity sha512-Wlsr26/VnW2enmz6O7ZmQqpOF490WNhN6X8g8KLXZBYrqWf3AdDBmoHDSZ99tqX2VoBxwuHIrASq6mLLUZlbjA==
+  dependencies:
+    "@auto-it/core" "9.53.1"
+    semver "^7.0.0"
+    tslib "2.0.1"
+
 "@auto-it/npm@9.53.1":
   version "9.53.1"
   resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-9.53.1.tgz#7a974e92b4472693e9b274793e086752dfc636e7"
