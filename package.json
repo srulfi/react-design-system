@@ -1,6 +1,6 @@
 {
-	"name": "react-design-system",
-	"description": "React Design System",
+	"name": "react-library",
+	"description": "React Library",
 	"version": "0.1.0",
 	"private": true,
 	"author": "Santiago Rulfi",
@@ -87,6 +87,6 @@
 		"sinon": "^9.0.3"
 	},
 	"main": "dist/index.js",
-	"repository": "https://github.com/srulfi/react-design-system.git",
+	"repository": "https://github.com/srulfi/react-library.git",
 	"license": "MIT"
 }
