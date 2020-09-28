@@ -1,68 +1,104 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to The Quuack React Library!
 
-## Available Scripts
+The Quuack React Library is a framework that:
+
+- Provides a tool for **rapid frontend development**.
+- Facilitates painless, projects-wide **UI/UX iteration** and improvement.
+- Reduces redundandy and **increases efficiency** in development efforts.
+
+Most importantly, the React Library is a collaborative effort between all teammates at [Quuack](https://www.quuack.com/).
+
+## Overview
+
+The React Library is split into two segments: a ***Components Library*** and a ***Boilerplates Library***.
+
+### Components Library
+
+The React Components Library is a frontend workshop environment tool to design, build and organize UI components without needing to stand up screens, fuss with data, or build business logic. It allows to:
+
+- Build components in isolation.
+- Mock and document hard-to-reach use cases.
+- Streamline the workflow and build process.
+
+### Boilerplates Library
+
+The React Boilerplates Library is a set of starters aim to easily bootstrap React and React Native projects. Depending on the project's nature and expected functionality you may choose a combination of the following technologies:
+
+- ReactJS
+- React Native
+- GatsbyJS
+- Redux
+- Redux Saga
+- Redux Toolkit
+- Redux Persist
+- Google Firebase
+
+## Quickstart
+
+1. Clone the repository.
+`git clone https://github.com/srulfi/react-library`
+2. Install repository dependencies.
+`yarn`
+3. Run project.
+`yarn storybook`
+4. The project is now running at `http://localhost:6006`!
+
+## Workflow
+
+1. Cut branch from `develop`, eg: `feature/carousel`.
+2. Work on feature.
+3. Write unit test.
+4. Document feature functionality.
+5. Push branch to remote repository.
+6. Create PR to `develop`.
+7. Assign a proper tag (`enhancement`, `bug`, `documentation`, `minor`, `major`, etc).
+8. If PR is approved and merged to `develop`, the feature will be available in the next deploy to `master`.
+
+## Available scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `yarn format`
+
+Formats code using [Prettier](https://prettier.io/).
+
+### `yarn lint`
+
+Analyzes the code to find problems using [Eslint](https://eslint.org/).
+
+### `yarn lint:fix`
+
+Analyzes the code to find problems and tries to fix them.
 
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn storybook`
+
+Runs the app in the development mode at [http://localhost:6006](http://localhost:6006).
+
+### `yarn chromatic`
+
+Publishes changes to [Chromatic](https://www.chromatic.com/).
+
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The build is minified and the filenames include the hashes.
+The app is ready to be deployed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `yarn release`
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Publishes new release to repository changes. ***Important: this should only be executed by a Github Action on the `master` branch***
