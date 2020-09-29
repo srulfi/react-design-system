@@ -1,6 +1,6 @@
 {
-	"name": "react-design-system",
-	"description": "React Design System",
+	"name": "react-library",
+	"description": "React Library",
 	"version": "0.1.0",
 	"private": true,
 	"author": "Santiago Rulfi",
@@ -22,14 +22,13 @@
 		"styled-normalize": "^8.0.7"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "cross-env BABEL_ENV=production babel src -d dist",
+		"start": "start-storybook -p 6006 -s public",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
 		"lint": "eslint --ignore-path .eslintignore . --ext js --ext jsx",
 		"lint:fix": "yarn lint --fix",
-		"storybook": "start-storybook -p 6006 -s public",
+		"build": "cross-env BABEL_ENV=production babel src -d dist",
 		"build-storybook": "build-storybook -s public",
 		"chromatic": "npx chromatic --project-token fja0l1xk02g",
 		"release": "auto shipit"
@@ -87,6 +86,6 @@
 		"sinon": "^9.0.3"
 	},
 	"main": "dist/index.js",
-	"repository": "https://github.com/srulfi/react-design-system.git",
+	"repository": "https://github.com/srulfi/react-library.git",
 	"license": "MIT"
 }
