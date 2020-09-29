@@ -1,37 +1,38 @@
-# Welcome to The Quuack React Library!
+# Welcome to The Quuack React Library
 
-The Quuack React Library is a framework that:
+The React Library is a workshop environment that:
 
 - Provides a tool for **rapid frontend development**.
+- Ensures **UX consistency** across any number of projects.
 - Facilitates painless, projects-wide **UI/UX iteration** and improvement.
-- Reduces redundandy and **increases efficiency** in development efforts.
+- Reduces redundancy and **increases efficiency** in development efforts.
 
-Most importantly, the React Library is a collaborative effort between all teammates at [Quuack](https://www.quuack.com/).
+Most importantly, the React Library is a collaborative work between all teammates at [Quuack](https://www.quuack.com/)!
 
 ## Overview
 
-The React Library is split into two segments: a ***Components Library*** and a ***Boilerplates Library***.
+The React Library is split into two segments: a **Components Library** and a **Starters Library**.
 
 ### Components Library
 
-The React Components Library is a frontend workshop environment tool to design, build and organize UI components without needing to stand up screens, fuss with data, or build business logic. It allows to:
+The React Components Library provides interactive functionality for a wide range of common features. It's based on the principles of [Atomic Design](http://atomicdesign.bradfrost.com/), implements [Styled Components](https://styled-components.com/) and extends from [Ant Design](https://ant.design/). This tool allows to:
 
 - Build components in isolation.
-- Mock and document hard-to-reach use cases.
-- Streamline the workflow and build process.
+- Mock hard-to-reach use cases.
+- Document use cases as stories.
 
-### Boilerplates Library
+### Starters Library
 
-The React Boilerplates Library is a set of starters aim to easily bootstrap React and React Native projects. Depending on the project's nature and expected functionality you may choose a combination of the following technologies:
+The React Starters Library is a set of starters aim to easily bootstrap React and React Native projects. Depending on the app's nature and expected functionality you may choose a combination of the following technologies:
 
-- ReactJS
-- React Native
-- GatsbyJS
-- Redux
-- Redux Saga
-- Redux Toolkit
-- Redux Persist
-- Google Firebase
+- [React](https://es.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Redux](https://es.redux.js.org/)
+- [Redux Saga](https://redux-saga.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Redux Persist](https://github.com/rt2zz/redux-persist)
+- [Firebase](https://firebase.google.com/)
 
 ## Quickstart
 
@@ -40,25 +41,49 @@ The React Boilerplates Library is a set of starters aim to easily bootstrap Reac
 2. Install repository dependencies.
 `yarn`
 3. Run project.
-`yarn storybook`
+`yarn start`
 4. The project is now running at `http://localhost:6006`!
 
 ## Workflow
 
-1. Cut branch from `develop`, eg: `feature/carousel`.
-2. Work on feature.
-3. Write unit test.
-4. Document feature functionality.
-5. Push branch to remote repository.
-6. Create PR to `develop`.
-7. Assign a proper tag (`enhancement`, `bug`, `documentation`, `minor`, `major`, etc).
-8. If PR is approved and merged to `develop`, the feature will be available in the next deploy to `master`.
+1. Cut a branch from `develop` (eg: `feature/carousel`).
+2. Work on the feature.
+3. Write the unit tests.
+4. Document the feature functionality.
+5. Create a PR to `develop` with proper tag (eg: `enhancement`, `bug`, `documentation`, `minor`, `major`, etc).
+6. <em>CI jobs.</em>
+7. Review changes if needed.
+8. If PR is approved and merged to `develop`, the feature will be available in the next sync with `master`.
 
-## Available scripts
+## How to consume the library from my app
+```
+import { GlobalStyle } from "react-library"
+
+const App = () => (
+	<>
+		<GlobalStyle />
+		...
+	</>
+)
+```
+```
+import { Button } from "react-library"
+
+const HomePage = () => (
+	<>
+		<Button primary={true} size="large" onClick={() => console.log("button clicked")}>
+			My Button
+		</Button>
+		...
+	</>
+)
+```
+
+## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
@@ -66,39 +91,48 @@ Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn format`
+#### `yarn format`
 
-Formats code using [Prettier](https://prettier.io/).
+Formats the code using [Prettier](https://prettier.io/).
 
-### `yarn lint`
+#### `yarn lint`
 
-Analyzes the code to find problems using [Eslint](https://eslint.org/).
+Analyzes the code to find problems using [ESLint](https://eslint.org/).
 
-### `yarn lint:fix`
+#### `yarn lint:fix`
 
 Analyzes the code to find problems and tries to fix them.
 
-### `yarn test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn storybook`
+#### `yarn chromatic`
 
-Runs the app in the development mode at [http://localhost:6006](http://localhost:6006).
+Publishes the changes to [Chromatic](https://www.chromatic.com/).
 
-### `yarn chromatic`
+#### `yarn build`
 
-Publishes changes to [Chromatic](https://www.chromatic.com/).
+Builds the app for production to the **dist** folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.<br />
 
-### `yarn build`
-
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
+The build is minified and the filenames include the hashes.<br />
 The app is ready to be deployed.
 
-### `yarn release`
+#### `yarn release`
 
-Publishes new release to repository changes. ***Important: this should only be executed by a Github Action on the `master` branch***
+Publishes a new release to the repository.<br />
+**Important: this should only be executed by a CI job on the `master` branch.**
+
+## Read more
+
+The React Library is powered by [Storybook](https://storybook.js.org/) and automated and integrated with Github CI by [Chromatic](https://www.chromatic.com/).
+
+## Permalinks
+
+Links to the latest published version on a given branch. Replace `${branch}` with the designated branch.<br />
+
+- Storybook: [https://${branch}--5f5f83142bda13002259e3cf.chromatic.com](https://${branch}--5f5f83142bda13002259e3cf.chromatic.com)
+
+- Chromatic: [https://chromatic.com/library?appId=5f5f83142bda13002259e3cf&branch=${branch}](https://chromatic.com/library?appId=5f5f83142bda13002259e3cf&branch=${branch})
