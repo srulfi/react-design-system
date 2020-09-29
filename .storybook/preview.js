@@ -22,4 +22,9 @@ export const parameters = {
 	docs: {
 		theme: quuackTheme,
 	},
+	options: {
+		storySort: {
+			order: ["Overview", "Components", "Starters"],
+		},
+	},
 }
