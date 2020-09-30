@@ -1,3 +1,25 @@
+# v0.3.0 (Wed Sep 30 2020)
+
+#### 🚀 Enhancement
+
+- Develop [#46](https://github.com/srulfi/react-library/pull/46) ([@srulfi](https://github.com/srulfi))
+
+#### 🐛 Bug Fix
+
+- update readme [#45](https://github.com/srulfi/react-library/pull/45) ([@srulfi](https://github.com/srulfi))
+- Feature/story snapshots [#44](https://github.com/srulfi/react-library/pull/44) ([@srulfi](https://github.com/srulfi))
+- enable all vieports [#43](https://github.com/srulfi/react-library/pull/43) ([@srulfi](https://github.com/srulfi))
+- Feature/stories reorder and cleanup [#42](https://github.com/srulfi/react-library/pull/42) ([@srulfi](https://github.com/srulfi))
+- Feature/readme [#41](https://github.com/srulfi/react-library/pull/41) ([@srulfi](https://github.com/srulfi))
+- Develop [#40](https://github.com/srulfi/react-library/pull/40) ([@srulfi](https://github.com/srulfi))
+- reorder button stories to start with small [#39](https://github.com/srulfi/react-library/pull/39) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.2.0 (Wed Sep 23 2020)
 
 #### 🚀 Enhancement
