@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 export default {
-  title: "Design System/Button",
+  title: "Components/Button",
   component: Button,
   argTypes: {
     backgroundColor: {
@@ -17,27 +17,32 @@ var Template = function Template(args) {
 export var Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  children: "Button"
+  children: "Button",
+  onClick: function onClick() {}
 };
 export var Secondary = Template.bind({});
 Secondary.args = {
-  children: "Button"
+  children: "Button",
+  onClick: function onClick() {}
 };
 export var Small = Template.bind({});
 Small.args = {
   primary: true,
   size: "small",
-  children: "Button"
+  children: "Button",
+  onClick: function onClick() {}
 };
 export var Medium = Template.bind({});
 Medium.args = {
   primary: true,
   size: "medium",
-  children: "Button"
+  children: "Button",
+  onClick: function onClick() {}
 };
 export var Large = Template.bind({});
 Large.args = {
   primary: true,
   size: "large",
-  children: "Button"
+  children: "Button",
+  onClick: function onClick() {}
 };

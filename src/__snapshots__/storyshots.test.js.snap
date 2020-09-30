@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Button Large 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx bEeDGL quuack-button--primary quuack-button quuack-button--large"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Medium 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx bEeDGL quuack-button--primary quuack-button quuack-button--medium"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Primary 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx bEeDGL quuack-button--primary quuack-button quuack-button--medium"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Secondary 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx bEeDGL quuack-button--secondary quuack-button quuack-button--medium"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Button
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Small 1`] = `
+<button
+  className="ant-btn ant-btn-button sc-bdnylx bEeDGL quuack-button--primary quuack-button quuack-button--small"
+  onClick={[Function]}
+  style={null}
+  type="button"
+>
+  <span>
+    Button
+  </span>
+</button>
+`;
