@@ -1,5 +1,6 @@
 import React from "react"
 import { ThemeProvider } from "styled-components"
+import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport"
 
 import quuackTheme from "./quuackTheme"
 import GlobalStyle from "../src/shared/global"
@@ -21,6 +22,9 @@ export const parameters = {
 	},
 	docs: {
 		theme: quuackTheme,
+	},
+	viewport: {
+		viewports: INITIAL_VIEWPORTS,
 	},
 	options: {
 		storySort: {

@@ -5,6 +5,7 @@
 	"private": true,
 	"author": "Santiago Rulfi",
 	"dependencies": {
+		"@storybook/addon-viewport": "^6.0.22",
 		"@storybook/theming": "^6.0.21",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
