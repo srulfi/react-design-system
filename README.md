@@ -38,11 +38,13 @@ The React Starters Library is a set of starters aim to easily bootstrap React an
 
 1. Clone the repository.
 `git clone https://github.com/srulfi/react-library`
-2. Install repository dependencies.
+2. Go into the repository
+`cd react-library`
+3. Install dependencies.
 `yarn`
-3. Run project.
+4. Run the app.
 `yarn start`
-4. The project is now running at `http://localhost:6006`!
+5. The app is now running at [http://localhost:6006](http://localhost:6006)!
 
 ## Workflow
 
@@ -50,7 +52,7 @@ The React Starters Library is a set of starters aim to easily bootstrap React an
 2. Work on the feature.
 3. Write the unit tests.
 4. Document the feature functionality.
-5. Create a PR to `develop` with proper tag (eg: `enhancement`, `bug`, `documentation`, `minor`, `major`, etc).
+5. Create a PR to `develop` with proper label (eg: `enhancement`, `bug`, `documentation`, `minor`, `major`, etc).
 6. <em>CI jobs.</em>
 7. Review changes if needed.
 8. If PR is approved and merged to `develop`, the feature will be available in the next sync with `master`.
@@ -60,22 +62,22 @@ The React Starters Library is a set of starters aim to easily bootstrap React an
 import { GlobalStyle } from "react-library"
 
 const App = () => (
-	<>
-		<GlobalStyle />
-		...
-	</>
+  <>
+    <GlobalStyle />
+    ...
+  </>
 )
 ```
 ```
 import { Button } from "react-library"
 
 const HomePage = () => (
-	<>
-		<Button primary={true} size="large" onClick={() => console.log("button clicked")}>
-			My Button
-		</Button>
-		...
-	</>
+  <>
+    <Button primary={true} size="large" onClick={() => console.log("button clicked")}>
+      My Button
+    </Button>
+    ...
+  </>
 )
 ```
 
