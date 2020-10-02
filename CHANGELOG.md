@@ -1,3 +1,16 @@
+# v0.3.1 (Fri Oct 02 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#48](https://github.com/srulfi/react-library/pull/48) ([@srulfi](https://github.com/srulfi))
+- Feature/gatsby boilerplate [#47](https://github.com/srulfi/react-library/pull/47) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.3.0 (Wed Sep 30 2020)
 
 #### 🚀 Enhancement
