@@ -1,3 +1,17 @@
+# v0.3.2 (Tue Oct 06 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#51](https://github.com/srulfi/react-library/pull/51) ([@srulfi](https://github.com/srulfi))
+- Feature/dist prettier ignore [#50](https://github.com/srulfi/react-library/pull/50) ([@srulfi](https://github.com/srulfi))
+- Feature/window size hook [#49](https://github.com/srulfi/react-library/pull/49) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.3.1 (Fri Oct 02 2020)
 
 #### 🐛 Bug Fix
