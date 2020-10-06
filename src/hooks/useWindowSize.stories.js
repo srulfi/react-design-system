@@ -12,7 +12,6 @@ export default {
 			},
 		},
 	},
-	args: null,
 }
 
 export const Demo = () => {
