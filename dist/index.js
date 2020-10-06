@@ -1,2 +1,4 @@
-export { default as GlobalStyle } from "./shared/global";
-export { default as Button } from "./components/Button";
+import GlobalStyle from "./shared/global";
+import Button from "./components/Button";
+import useWindowSize from "./hooks/useWindowSize";
+export { GlobalStyle, Button, useWindowSize };

@@ -11,7 +11,7 @@ Most importantly, the React Library is a collaborative work between all teammate
 
 ## Overview
 
-The React Library is split into two segments: a **Components Library** and a **Starters Library**.
+The React Library is split into three segments: a **Components Library**, a **Hooks Library** and a **Starters Library**.
 
 ### Components Library
 
@@ -20,6 +20,10 @@ The React Components Library provides interactive functionality for a wide range
 - Build components in isolation.
 - Mock hard-to-reach use cases.
 - Document use cases as stories.
+
+### Hooks Library
+
+The React Hooks Library is a set of custom hooks with specific functionality that can be reused across different components.
 
 ### Starters Library
 
@@ -80,6 +84,20 @@ const HomePage = () => (
   </>
 )
 ```
+```
+import { useWindowSize } from "react-library"
+
+const App = () => {
+  const { width, height } = useWindowSize()
+
+  return (
+    <>
+      {width}px / {height}px
+      ...
+    </>
+  )
+}
+``` 
 
 ## Available Scripts
 
