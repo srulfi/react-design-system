@@ -1,3 +1,16 @@
+# v0.3.3 (Wed Oct 07 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#53](https://github.com/srulfi/react-library/pull/53) ([@srulfi](https://github.com/srulfi))
+- Feature/docs addon [#52](https://github.com/srulfi/react-library/pull/52) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.3.2 (Tue Oct 06 2020)
 
 #### 🐛 Bug Fix
