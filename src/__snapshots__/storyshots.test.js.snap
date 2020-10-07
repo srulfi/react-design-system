@@ -64,3 +64,13 @@ exports[`Storyshots Components/Button Small 1`] = `
   </span>
 </button>
 `;
+
+exports[`Storyshots Hooks/useWindowSize Demo 1`] = `
+Array [
+  "width: ",
+  "px",
+  <br />,
+  "height: ",
+  "px",
+]
+`;
