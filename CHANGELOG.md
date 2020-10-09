@@ -1,3 +1,17 @@
+# v0.3.4 (Fri Oct 09 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#56](https://github.com/srulfi/react-library/pull/56) ([@srulfi](https://github.com/srulfi))
+- include hook in dist export [#55](https://github.com/srulfi/react-library/pull/55) ([@srulfi](https://github.com/srulfi))
+- Feature/use is client hook [#54](https://github.com/srulfi/react-library/pull/54) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.3.3 (Wed Oct 07 2020)
 
 #### 🐛 Bug Fix
