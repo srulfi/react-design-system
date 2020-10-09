@@ -65,6 +65,8 @@ exports[`Storyshots Components/Button Small 1`] = `
 </button>
 `;
 
+exports[`Storyshots Hooks/useIsClient Demo 1`] = `"Server"`;
+
 exports[`Storyshots Hooks/useWindowSize Demo 1`] = `
 Array [
   "width: ",
