@@ -1,6 +1,6 @@
-import React from "react"
+import React, { FC } from "react"
 
-import useWindowSize from "./useWindowSize"
+import useWindowSize from "."
 
 export default {
 	title: "Hooks/useWindowSize",
@@ -14,7 +14,7 @@ export default {
 	},
 }
 
-export const Demo = () => {
+export const Demo: FC = () => {
 	const { width, height } = useWindowSize()
 
 	return (
