@@ -11,7 +11,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\t/* additional body styles */\n"]);
+  var data = _taggedTemplateLiteral(["\n\tfont-family: ", ";\n\tfont-size: ", "px;\n\tcolor: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -22,6 +22,7 @@ function _templateObject() {
 
 import { createGlobalStyle, css } from "styled-components";
 import { normalize } from "styled-normalize";
-var bodyStyles = css(_templateObject());
+import { colors, typography } from "./styles";
+var bodyStyles = css(_templateObject(), typography.type.primary, typography.size.s3, colors.primary);
 var GlobalStyle = createGlobalStyle(_templateObject2(), normalize, bodyStyles);
 export default GlobalStyle;

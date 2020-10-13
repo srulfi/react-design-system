@@ -1,9 +1,11 @@
 import styled from "styled-components"
 import { Button } from "antd"
 
+import { colors, typography } from "../../shared/styles"
+
 export default styled(Button)`
 	&.quuack-button {
-		font-family: ${props => props.theme.fontBase};
+		font-family: ${typography.type.fontBase};
 		border: 0;
 		border-radius: 3em;
 		cursor: pointer;
@@ -11,24 +13,24 @@ export default styled(Button)`
 		line-height: 1;
 	}
 	&.quuack-button--primary {
-		background-color: ${props => props.theme.colorPrimary};
-		color: ${props => props.theme.textInverseColor};
+		background-color: ${colors.primary};
+		color: ${colors.white};
 	}
 	&.quuack-button--secondary {
-		color: ${props => props.theme.colorSecondary};
-		background-color: transparent;
+		color: ${colors.secondary};
+		background-color: ${colors.transparent};
 		box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 	}
 	&.quuack-button--small {
-		font-size: 12px;
+		font-size: ${typography.size.s1}px;
 		padding: 10px 16px;
 	}
 	&.quuack-button--medium {
-		font-size: 14px;
+		font-size: ${typography.size.s2}px;
 		padding: 11px 20px;
 	}
 	&.quuack-button--large {
-		font-size: 16px;
+		font-size: ${typography.size.s3}px;
 		padding: 12px 24px;
 	}
 `
