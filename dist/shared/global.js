@@ -23,6 +23,6 @@ function _templateObject() {
 import { createGlobalStyle, css } from "styled-components";
 import { normalize } from "styled-normalize";
 import { colors, typography } from "./styles";
-var bodyStyles = css(_templateObject(), typography.type.primary, typography.size.s3, colors.primary);
+var bodyStyles = css(_templateObject(), typography.type.primary, typography.size.s3, colors.black);
 var GlobalStyle = createGlobalStyle(_templateObject2(), normalize, bodyStyles);
 export default GlobalStyle;
