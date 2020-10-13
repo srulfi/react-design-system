@@ -6,7 +6,7 @@ import { colors, typography } from "./styles"
 const bodyStyles = css`
 	font-family: ${typography.type.primary};
 	font-size: ${typography.size.s3}px;
-	color: ${colors.primary};
+	color: ${colors.black};
 `
 
 const GlobalStyle = createGlobalStyle`
