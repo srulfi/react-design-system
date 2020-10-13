@@ -1,3 +1,16 @@
+# v0.3.5 (Tue Oct 13 2020)
+
+#### 🐛 Bug Fix
+
+- Develop [#58](https://github.com/srulfi/react-library/pull/58) ([@srulfi](https://github.com/srulfi))
+- Feature/global styles [#57](https://github.com/srulfi/react-library/pull/57) ([@srulfi](https://github.com/srulfi))
+
+#### Authors: 1
+
+- Santiago Rulfi ([@srulfi](https://github.com/srulfi))
+
+---
+
 # v0.3.4 (Fri Oct 09 2020)
 
 #### 🐛 Bug Fix
