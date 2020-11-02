@@ -147,7 +147,7 @@ Publishes a new release to the repository.<br />
 
 ## Read more
 
-The React Library is powered by [Storybook](https://storybook.js.org/) and automated and integrated with Github CI by [Chromatic](https://www.chromatic.com/).
+The React Library is powered by [Storybook](https://storybook.js.org/) and uses [Chromatic](https://www.chromatic.com/) for visual testing and UI feedback automation.
 
 ## Permalinks
 
